@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEA06F146187E5324AFFF0476DC4E7A4173EBE21",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEA06F146187E5324AFFF0476DC4E7A4173EBE21" : 0,
+    "800F489E79D89367A6ED61B937B4336E65D84B53" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4622C9E-0CF5-4E62-95A9-70906E243DB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEA06F146187E5324AFFF0476DC4E7A4173EBE21" : "DoomFireIOS\/",
+    "800F489E79D89367A6ED61B937B4336E65D84B53" : "doom-fire\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DoomFireIOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DoomFireIOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:otaviopace\/doom-fire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "800F489E79D89367A6ED61B937B4336E65D84B53"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:otaviopace\/DoomFireIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEA06F146187E5324AFFF0476DC4E7A4173EBE21"
+    }
+  ]
+}
