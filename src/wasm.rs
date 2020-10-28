@@ -30,7 +30,7 @@ fn to_uint8_array(slice: &[u8]) -> Uint8Array {
     u_int8_array
 }
 
-fn convert_render_callback(render: Function) -> Box<Fn(&[u8])> {
+fn convert_render_callback(render: Function) -> Box<dyn Fn(&[u8])> {
     Box::new(move |pixels: &[u8]| {
         render
             .call1(&JsValue::NULL, &to_uint8_array(pixels))

@@ -31,7 +31,7 @@ impl PixelBoard {
         }
     }
 
-    pub fn calculate_fire_propagation(&mut self, render: Box<Fn(&[u8])>) {
+    pub fn calculate_fire_propagation(&mut self, render: Box<dyn Fn(&[u8])>) {
         for column in 0..self.width {
             for row in 0..self.height {
                 let pixel_index = column + (self.width * row);

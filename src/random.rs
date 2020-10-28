@@ -12,10 +12,12 @@ extern "C" {
 #[cfg(not(target_arch = "wasm32"))]
 use rand::prelude::*;
 
+/*
 #[cfg(not(target_arch = "wasm32"))]
 pub fn random() -> f64 {
     rand::thread_rng().gen()
 }
+*/
 
 #[cfg(all(
     not(target_arch = "wasm32"),

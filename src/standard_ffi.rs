@@ -1,7 +1,7 @@
 use crate::pixel_board::PixelBoard;
 use std::ptr;
 
-fn convert_render(render: extern "C" fn(&[u8], usize)) -> Box<Fn(&[u8])> {
+fn convert_render(render: extern "C" fn(&[u8], usize)) -> Box<dyn Fn(&[u8])> {
     Box::new(move |pixels: &[u8]| {
         render(pixels, pixels.len());
     })
